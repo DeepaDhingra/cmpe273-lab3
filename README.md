@@ -9,9 +9,11 @@ This will activate PUT and GET operations on following ports:
 It has Client that does the consistent hashing.
 Client gets activated on port 8080.
 
-a) PUT operation:
+a) PUT operation:(client)
 
-PUT /keys/{key_id}/value output from client. 
+PUT /keys/{key_id}/value 
+
+output from client. 
 
 {"key":1,"value":"a"} 
 
