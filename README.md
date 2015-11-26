@@ -12,12 +12,16 @@ Client gets activated on port 8080.
 a) PUT operation:
 
 PUT /keys/{key_id}/value output from client. 
+
 {"key":1,"value":"a"} 
+
 Put similar key/value pairs for different combinations.
 This will shard the data oto different servers (3000,3001,3002)
 
 b) GET http://localhost:3000/keys
+
 Output:
+
 [{"key":2,"value":"b"},{"key":3,"value":"c"}]
 
 c) GET http://localhost:3001/keys
