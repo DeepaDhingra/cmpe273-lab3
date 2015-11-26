@@ -8,7 +8,9 @@ This will activate PUT and GET operations on following ports:
 2) Now compile and run files from ClientFolder.
 It has Client that does the consistent hashing.
 Client gets activated on port 8080.
+
 a) PUT operation:
+
 PUT /keys/{key_id}/value output from client. 
 {"key":1,"value":"a"} 
 Put similar key/value pairs for different combinations.
